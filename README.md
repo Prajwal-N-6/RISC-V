@@ -16,15 +16,16 @@ Welcome to the repository for the **RISC-V Single-Cycle Processor**, a verified 
 ### **Design Highlights**
 - **Single-Cycle Execution**: All instructions are executed in a single clock cycle.
 - **Modular Components**:
+  - RISC-V Core
   - Program Counter (PC)
   - Instruction Memory
+  - Data Memoery
   - Register File
   - ALU (Arithmetic Logic Unit)
   - Control Unit
   - Data Memory
-- Verified using formal methods to ensure correctness of control signals and data paths.
-- Fully synthesizable SystemVerilog code.
-
+  - Extend Unit
+  - Decoder Unit
 ---
 
 
